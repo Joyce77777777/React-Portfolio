@@ -1,0 +1,48 @@
+.resume-container {
+    background-color: #2a2a72; /* Dark blue background */
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    max-width: 600px; /* Adjust based on your preference */
+    margin: 20px auto;
+  }
+  
+  .resume-container h2,
+  .resume-container h3 {
+    margin-bottom: 15px;
+  }
+  
+  .resume-container h2 {
+    text-align: center;
+  }
+  
+  .resume-download {
+    display: block;
+    color: #4caf50; /* Green color for the download link */
+    margin-bottom: 30px;
+    text-decoration: none;
+  }
+  
+  .resume-download:hover {
+    text-decoration: underline;
+  }
+  
+  .resume-container ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .resume-container ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .resume-container ul li:before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #4caf50; /* Green color for the bullet points */
+  }
+  

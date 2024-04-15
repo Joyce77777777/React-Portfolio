@@ -1,0 +1,54 @@
+.about-me-container {
+    background-color: #2a2a72; /* Dark blue background */
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    max-width: 600px; /* Adjust based on your preference */
+    margin: 20px auto;
+    text-align: center; /* Center the content */
+  }
+  
+  .about-me-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .avatar-container {
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    width: 100px; /* Adjust based on your preference */
+    height: 100px; /* Adjust based on your preference */
+    border-radius: 50%; /* Circular avatar */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+  
+  .bio {
+    margin-bottom: 20px;
+    line-height: 1.6; /* Makes text easier to read */
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    /* Add additional styles for icons, such as color, size, etc. */
+  }
+  
+  /* For demonstration purposes, let's use Unicode characters as placeholders for social icons */
+  .social-icons a:before {
+    content: '⚫'; /* Placeholder for GitHub */
+    font-size: 24px;
+    color: #333; /* Icon color */
+  }
+  
+  .social-icons a:nth-child(2):before {
+    content: '🔗'; /* Placeholder for LinkedIn */
+  }
+  
+  .social-icons a:nth-child(3):before {
+    content: '🐦'; /* Placeholder for Twitter */
+  }
+  
+  /* Adjust the content property to use actual icons, e.g., from a font icon library like Font Awesome */
+  
